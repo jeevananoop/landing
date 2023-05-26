@@ -1,0 +1,30 @@
+.card {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+flex-basis: 250px;
+flex-grow: 1;
+margin: 10px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
